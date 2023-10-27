@@ -51,31 +51,31 @@ The main functional modules of the `Second-Hand E-Commerce App`  are as follows:
 
 ####  4.1 Home Page
 
-<img src="./public/screenshots/home.png" alt="home_page" style="zoom:30%;" />
+<img src="./public/screenshots/home.png" alt="home_page" width="300px" />
 
 
 
 #### 4.2 Post Page
 
-<img src="./public/screenshots/post.png" alt="post_page" style="zoom:30%;" />
+<img src="./public/screenshots/post.png" alt="post_page" width="300px" />
 
 #### 4.3 Message Page
 
-<img src="./public/screenshots/message.png" alt="massage_page" style="zoom:30%;" />
+<img src="./public/screenshots/message.png" alt="massage_page" width="300px" />
 
 #### 4.4 Profile Page
 
-<img src="./public/screenshots/me.png" alt="我的" style="zoom:30%;" />
+<img src="./public/screenshots/me.png" alt="me_page" width="300px" />
 
 #### 4.5 Product Details Page
 
-<img src="./public/screenshots/product_details.png" alt="城市列表" style="zoom:30%;" />
+<img src="./public/screenshots/product_details.png" alt="product details" width="300px" />
 
 
 
 #### 4.5 Home search Page
 
-<img src="./public/screenshots/filter.png" alt="filter" style="zoom:30%;" />
+<img src="./public/screenshots/filter.png" alt="filter" width="300px" />
 
 
 
