@@ -1,0 +1,115 @@
+.contanier {
+  height: 100vh;
+
+  background-color: #317e9f;
+}
+
+.contanierContent {
+  padding: 0 40px;
+}
+.head_line {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+  align-items: center;
+  color: #d5e1e8;
+  /* margin-left: 30px; */
+  /* margin-right: 30px; */
+
+  /* margin: 100px 40px 40px 100px; */
+}
+
+.head_line p {
+  margin-top: 70px;
+}
+.head_line img {
+  margin-top: 10px;
+  width: 100px;
+}
+
+.back {
+  color: beige;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.form {
+  margin: 50px 0px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.form > div {
+  margin-bottom: 30px;
+}
+.form > div > div {
+  color: #e8eef1;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.form > div > input {
+  border-radius: 12px;
+  width: 95%;
+  height: 35px;
+  border: gray 1px solid;
+  padding-left: 10px;
+}
+
+.name {
+}
+
+.email {
+}
+
+.password {
+}
+
+.register_btn {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.register_btn button {
+  width: 100px;
+  height: 30px;
+  border: ghostwhite;
+  border-radius: 10px;
+  color: #929292;
+}
+
+.login {
+  font-weight: bold;
+  color: white;
+}
+
+.form :global .adm-list-item-content {
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.form :global .adm-form-footer {
+  display: flex;
+  justify-content: end;
+  /* border: none; */
+  /* background-color: none; */
+}
+.form :global .adm-button {
+  border-radius: 10px;
+  line-height: 10px;
+  height: 30px;
+  width: 100px;
+}
+
+.form :global .adm-list-item {
+  border-radius: 10px;
+}
+
+.form :global .adm-form {
+  background-color: #317e9f;
+  /* border: none; */
+}
+
+.form :global .adm-list-body {
+  border-radius: 15px;
+}

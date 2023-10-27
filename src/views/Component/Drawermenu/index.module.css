@@ -1,0 +1,12 @@
+:global(.adm-side-bar) {
+  width: 300px;
+  font-size: 15px;
+}
+
+:global(.adm-side-bar-item) {
+  color: #0f3c4c;
+}
+
+:global(.adm-side-bar-item-active) {
+  background-color: #d3eaf2;
+}

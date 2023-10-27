@@ -1,0 +1,150 @@
+.container {
+  height: calc(100vh - 55px);
+
+  margin-top: 55px;
+  /* margin-bottom: 70px; */
+  overflow: auto;
+}
+
+.swiper {
+  margin: 10px;
+}
+.swiperItem img {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.body {
+  margin: 20px;
+}
+
+.seller {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.seller .avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.seller span {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.dividingLine {
+  width: auto;
+  margin-top: 10px;
+  border-bottom: 1.3px solid grey;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.price {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.desc {
+  font-size: 15px;
+}
+
+.bottom {
+  margin: 10px;
+  width: 85%;
+  position: fixed;
+  bottom: 10px;
+}
+
+.messages {
+  display: flex;
+  justify-content: space-between;
+  bottom: 10px;
+  font-size: 14px;
+}
+
+.messages > div {
+  display: flex;
+  align-items: center;
+}
+.messages > div span {
+  margin-left: 5px;
+}
+
+.bottomBlock {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomBlock .comments {
+  display: flex;
+  align-items: center;
+}
+
+.bottomBlock > div button {
+  border-radius: 5px;
+  font-size: 12px;
+  border: 1px solid gray;
+  background-color: skyblue;
+  padding: 10px;
+}
+
+.comments {
+  /* background-color: skyblue; */
+}
+
+.comments .commentsTop {
+  display: flex;
+  margin: 20px;
+  padding: 0px 10px;
+  justify-content: space-between;
+}
+
+.commentsItem {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.commentsUserInfo {
+  display: flex;
+  flex-direction: column;
+}
+.commentsUserInfo img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.commentsUserInfo span {
+  font-size: 8px;
+}
+
+.commentsItemContent {
+  width: 170px;
+  text-align: center;
+}
+
+.addComment {
+  margin: 20px;
+}
+
+.addComment :global .adm-text-area {
+  height: 70px;
+}
+
+.addComment :global .adm-list-body {
+  border-radius: 8px;
+}
+.addComment :global .adm-text-area-element {
+  /* height: 10px; */
+}

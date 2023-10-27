@@ -1,0 +1,16 @@
+.bodyForm {
+  margin-top: 20px;
+}
+
+:global .adm-dropdown .adm-dropdown-nav {
+  justify-content: space-between;
+  align-items: center;
+}
+
+:global .adm-dropdown-item {
+  flex: none;
+}
+
+:global .adm-dropdown-item .adm-dropdown-item-title-arrow {
+  font-size: 20px;
+}

@@ -1,0 +1,21 @@
+.top_nav {
+  /* background-color: #f3f3f3; */
+  /* position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%; */
+  /* margin-bottom: 10px; */
+}
+
+.top_nav :global(.adm-nav-bar) {
+  /* background-color: red; */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+}
+
+.top_nav :global(.adm-nav-bar-title) {
+  font-size: 20px;
+}

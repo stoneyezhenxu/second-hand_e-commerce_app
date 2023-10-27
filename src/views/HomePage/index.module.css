@@ -1,0 +1,21 @@
+.container {
+  height: calc(100vh - 125px);
+  margin-top: 55px;
+  margin-bottom: 70px;
+  overflow: auto;
+}
+
+.middle_body {
+}
+
+.bottom_tabbar {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  border-top: solid 1px var(--adm-color-border);
+  background-color: #d3eaf2;
+  padding: 10px 0;
+  border-radius: 10px 10px 0 0;
+}

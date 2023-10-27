@@ -1,0 +1,115 @@
+.container {
+  /* width: 100vw; */
+  /* height: 100vh; */
+  height: calc(100vh - 55px);
+
+  margin-top: 55px;
+  /* margin-bottom: 70px; */
+  overflow: auto;
+}
+
+.bodyCard1 {
+  height: 120px;
+  margin: 20px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.bodyCard1 > div:nth-child(1) img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.bodyCard1 > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.bodyCard1 > div:nth-child(2) > div {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.bodyCard2 {
+  height: 160px;
+  margin: 20px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.bodyCard2 > div:nth-child(1) {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+.bodyCard2 > div:nth-child(2) > div:nth-child(2) {
+  margin-top: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
+.askingPrice {
+  margin: 30px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.askingPrice > div {
+  font-size: 20px;
+}
+
+.yourOffer {
+  margin: 30px 20px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.yourOffer > div {
+  font-size: 20px;
+}
+
+.yourOffer > div:last-child input {
+  width: 80px;
+}
+
+.yourOffer :global .adm-input {
+  /* background-color: skyblue; */
+  width: 100px;
+  border: 1px solid grey;
+}
+
+.yourOffer :global .adm-input-element {
+  text-align: center;
+  color: black;
+}
+
+.bottom :global .adm-form-item-label {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.bottom :global .adm-list-item-content-extra {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.bottom {
+  padding: 10px;
+}
+
+.bottom :global .adm-input-element {
+  text-align: end;
+  margin-right: 10px;
+  font-size: 20px;
+}

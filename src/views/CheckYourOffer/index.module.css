@@ -1,0 +1,44 @@
+.container {
+  height: calc(100vh - 50px);
+  margin-top: 50px;
+  /* margin-bottom: 86px; */
+  overflow: auto;
+}
+.ItemContent {
+  margin: 20px;
+  height: 150px;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+
+.ItemContent > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ItemContent > div img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.steps :global .adm-steps-vertical .adm-step .adm-step-content .adm-step-title {
+  font-size: 20px;
+}
+
+.steps :global .adm-step-status-process {
+  margin-bottom: 20px;
+}
+
+.deletcButton {
+  margin: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+.deletcButton button {
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+}

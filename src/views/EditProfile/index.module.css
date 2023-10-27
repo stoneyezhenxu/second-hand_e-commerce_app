@@ -1,0 +1,130 @@
+.top_nav {
+  /* flex: 0; */
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  top: 0px;
+  border-bottom: solid 1px var(--adm-color-border);
+}
+
+.swiper {
+  margin: 10px;
+}
+.swiperItem img {
+  height: 300px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.body {
+  margin: 20px;
+}
+
+.seller {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.seller .avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.seller span {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.dividingLine {
+  width: auto;
+  margin-top: 10px;
+  border-bottom: 1.3px solid grey;
+}
+
+.title {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+.price {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+.desc {
+  font-size: 15px;
+}
+
+.bottom {
+  margin: 10px;
+  width: 85%;
+  position: fixed;
+  bottom: 10px;
+}
+
+.messages {
+  display: flex;
+  justify-content: space-between;
+  bottom: 10px;
+  font-size: 14px;
+}
+
+.messages > div {
+  display: flex;
+  align-items: center;
+}
+.messages > div span {
+  margin-left: 5px;
+}
+
+.bottomBlock {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottomBlock .comments {
+  display: flex;
+  align-items: center;
+}
+
+.bottomBlock > div button {
+  border-radius: 5px;
+  width: 90px;
+  height: 25px;
+  font-size: 12px;
+  border: 1px solid gray;
+  background-color: skyblue;
+}
+
+.comments {
+  /* background-color: skyblue; */
+}
+
+.comments .commentsTop {
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.commentsItem {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commentsUserInfo {
+  display: flex;
+  flex-direction: column;
+}
+.commentsUserInfo img {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.commentsUserInfo span {
+  font-size: 8px;
+}

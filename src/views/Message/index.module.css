@@ -1,0 +1,61 @@
+.item {
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  height: 80px;
+  /* margin: 0, 20px; */
+}
+
+.itemTime {
+  text-align: center;
+  font-size: 10px;
+}
+
+.itemContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemContent > div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 30px;
+}
+.itemContent > div:nth-child(1) img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.itemContent > div:nth-child(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.body :global(.adm-list) {
+  /* --border-bottom: none; */
+  --border-top: none;
+  /* --border-inner: none; */
+}
+
+:global(.adm-list-item-description) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+:global(.adm-list-item-content-extra) {
+  font-size: 10px;
+}
+
+.messageItem {
+  /* padding: 10px; */
+}
