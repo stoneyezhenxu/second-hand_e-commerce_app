@@ -72,7 +72,7 @@ export default function Message () {
   }
   return <div className={styles.container}>
 
-    <HeadNav title='Messages' />
+    <HeadNav title='Message' />
     <div className={styles.body}>
       <List >
         <AutoSizer disableHeight>
